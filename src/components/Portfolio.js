@@ -24,7 +24,6 @@ const useStyles = makeStyles({
   },
   cardContainer: {
     maxWidth: 345,
-    margin: "3rem",
     margin: "5rem auto",
   },
 })
@@ -53,9 +52,6 @@ const Portfolio = () => {
             </CardActionArea>
             <CardActions>
               <Button size="small" color="primary">
-                Share
-              </Button>
-              <Button size="small" color="primary">
                 Live demo
               </Button>
             </CardActions>
@@ -78,9 +74,6 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
-                Share
-              </Button>
               <Button size="small" color="primary">
                 Live demo
               </Button>
@@ -105,9 +98,6 @@ const Portfolio = () => {
             </CardActionArea>
             <CardActions>
               <Button size="small" color="primary">
-                Share
-              </Button>
-              <Button size="small" color="primary">
                 Live demo
               </Button>
             </CardActions>
@@ -130,9 +120,6 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
-                Share
-              </Button>
               <Button size="small" color="primary">
                 Live demo
               </Button>

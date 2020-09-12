@@ -17,6 +17,7 @@ import {
 } from "@material-ui/core"
 import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from "@material-ui/icons"
 import avatar from "../avatar.png"
+import Footer from "./Footer"
 
 // CSS Styles
 const useStyles = makeStyles((theme) => ({
@@ -54,8 +55,8 @@ const menuItems = [
   },
   {
     listIcon: <ContactMail />,
-    listText: "Contacts",
-    listPath: "/contacts",
+    listText: "Contact",
+    listPath: "/contact",
   },
 ]
 
@@ -104,6 +105,7 @@ const Navbar = () => {
               onClose={toggleSlider("right", false)}
             >
               {sideList("right")}
+              <Footer />
             </MobilRightMenuSlider>
           </Toolbar>
         </AppBar>
