@@ -110,67 +110,50 @@ const Resume = () => {
       <Navbar />
       <Box component="header" className={classes.mainContainer}>
         <Typography variant="h4" align="center" className={classes.heading}>
-          Working experience
+          Skills Acquiring
         </Typography>
         <Box component="div" className={classes.timeLine}>
           <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-            2013
+            2018
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" align="center" className={classes.subHeading}>
-              Web Development
+              Full Stack Web Development
             </Typography>
             <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-              Company name where worked
+              CareerFoundry
             </Typography>
             <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio officiis fugit rerum
-              laudantium nihil porro totam iure? Facere, inventore neque?
+              6 Month intensive course specializing in TDD Ruby on Rails, HTML5, CSS3, AJAX, jQuery,
+              JS, API and MySQL/ NoSQL
             </Typography>
           </Box>
           <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-            2014
+            2019
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" align="center" className={classes.subHeading}>
-              Wed Design
+              Full Stack Python Development
             </Typography>
             <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-              Company name where worked
+              Self learning
             </Typography>
             <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio officiis fugit rerum
-              laudantium nihil porro totam iure? Facere, inventore neque?
+              Learned Python and some of it's most famous libraries and frameworks included Flask
             </Typography>
           </Box>
           <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-            2015
+            2019
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" align="center" className={classes.subHeading}>
-              Backend Development
+              Frontend Development
             </Typography>
             <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-              Company name where worked
+              Self learning
             </Typography>
             <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio officiis fugit rerum
-              laudantium nihil porro totam iure? Facere, inventore neque?
-            </Typography>
-          </Box>
-          <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-            2016
-          </Typography>
-          <Box component="div" className={classes.timeLineItem}>
-            <Typography variant="h5" align="center" className={classes.subHeading}>
-              Javascript Mastering
-            </Typography>
-            <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-              Company name where worked
-            </Typography>
-            <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio officiis fugit rerum
-              laudantium nihil porro totam iure? Facere, inventore neque?
+              Learned ReactJs - ReactRouter - Redux
             </Typography>
           </Box>
         </Box>
