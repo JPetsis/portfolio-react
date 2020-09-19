@@ -23,7 +23,10 @@ const Home = () => {
         params={{
           particles: {
             color: {
-              value: "#ff6347",
+              value: "#962d36",
+            },
+            links: {
+              color: "#fff3dc",
             },
             number: {
               value: 80,
@@ -36,7 +39,7 @@ const Home = () => {
               type: "circle",
               stroke: {
                 width: 1,
-                color: "#ff6347",
+                color: "#962d36",
               },
             },
             size: {
@@ -55,7 +58,7 @@ const Home = () => {
               anim: {
                 enable: true,
                 speed: 1,
-                opacity_min: 0.1,
+                opacity_min: 0.5,
                 sync: true,
               },
             },

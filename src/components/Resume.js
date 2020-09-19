@@ -5,7 +5,7 @@ import Navbar from "./Navbar"
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
+    background: "#1f272d",
   },
   timeLine: {
     position: "relative",
@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
       content: "''",
       position: "absolute",
       height: "100%",
-      border: "1px solid tan",
+      border: "1px solid #fff3dc",
       right: "40px",
       top: 0,
     },
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
   },
   timeLineItem: {
     padding: "1rem",
-    borderBottom: "2px solid tan",
+    borderBottom: "2px solid #fff3dc",
     position: "relative",
     margin: "1rem 3rem 1rem 1rem",
     clear: "both",
@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
       right: "-0.625rem",
       top: "calc(50% - 5px)",
       borderStyle: "solid",
-      borderColor: "tomato tomato transparent transparent",
+      borderColor: "#ff4555 #ff4555 transparent transparent",
       borderWidth: "0.625rem",
       transform: "rotate(45deg)",
     },
@@ -58,12 +58,12 @@ const useStyles = makeStyles((theme) => ({
       "&:nth-of-type(2n)": {
         float: "right",
         margin: "1rem",
-        borderColor: "tan",
+        borderColor: "#fff3dc",
       },
       "&:nth-of-type(2n):before": {
         right: "auto",
         left: "-0.625rem",
-        borderColor: "transparent transparent tomato tomato",
+        borderColor: "transparent transparent #ff4555 #ff4555",
       },
     },
   },
@@ -72,7 +72,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: "9.375rem",
     margin: "0 3rem 0 auto",
     fontSize: "1.8rem",
-    background: "tomato",
+    background: "#962d36",
     color: "white",
     lineHeight: 1,
     padding: "0.5rem 0 1rem",
@@ -92,12 +92,12 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    color: "tomato",
+    color: "#ff4555",
     padding: "3rem 0",
     textTransform: "uppercase",
   },
   subHeading: {
-    color: "white",
+    color: "#fff3dc",
     padding: "0",
     textTransform: "uppercase",
   },
@@ -120,7 +120,7 @@ const Resume = () => {
             <Typography variant="h5" align="center" className={classes.subHeading}>
               Full Stack Web Development
             </Typography>
-            <Typography variant="body1" align="center" style={{ color: "tomato" }}>
+            <Typography variant="body1" align="center" style={{ color: "#ff4555" }}>
               CareerFoundry
             </Typography>
             <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
@@ -135,7 +135,7 @@ const Resume = () => {
             <Typography variant="h5" align="center" className={classes.subHeading}>
               Full Stack Python Development
             </Typography>
-            <Typography variant="body1" align="center" style={{ color: "tomato" }}>
+            <Typography variant="body1" align="center" style={{ color: "#ff4555" }}>
               Self learning
             </Typography>
             <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
@@ -149,7 +149,7 @@ const Resume = () => {
             <Typography variant="h5" align="center" className={classes.subHeading}>
               Frontend Development
             </Typography>
-            <Typography variant="body1" align="center" style={{ color: "tomato" }}>
+            <Typography variant="body1" align="center" style={{ color: "#ff4555" }}>
               Self learning
             </Typography>
             <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>

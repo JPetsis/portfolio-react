@@ -16,14 +16,14 @@ import {
   ListItemIcon,
 } from "@material-ui/core"
 import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from "@material-ui/icons"
-import avatar from "../avatar.png"
+import avatar from "../ninja.png"
 import Footer from "./Footer"
 
 // CSS Styles
 const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
     width: 250,
-    background: "#511",
+    background: "#962d36",
     height: "100%",
   },
   avatar: {
@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(13),
   },
   listItem: {
-    color: "tan",
+    color: "#fff3dc",
   },
 }))
 
@@ -94,9 +94,9 @@ const Navbar = () => {
         <AppBar position="static" style={{ background: "#222" }}>
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
-              <ArrowBack style={{ color: "tomato" }} />
+              <ArrowBack style={{ color: "#962d36" }} />
             </IconButton>
-            <Typography variant="h5" style={{ color: "tan" }}>
+            <Typography variant="h5" style={{ color: "#588dbb" }}>
               Portfolio
             </Typography>
             <MobilRightMenuSlider

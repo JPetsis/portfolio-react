@@ -18,7 +18,7 @@ import project3 from "../images/Python-Flask.jpg"
 
 const useStyles = makeStyles({
   mainContainer: {
-    background: "#233",
+    background: "#1f272d",
     height: "100%",
   },
   cardContainer: {

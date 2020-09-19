@@ -13,15 +13,15 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     marginTop: "1rem",
-    color: "tomato",
-    borderColor: "tomato",
+    color: "#ff4555",
+    borderColor: "#ff4555",
   },
 }))
 
 const InputField = withStyles({
   root: {
     "& label.Mui-focused": {
-      color: "tomato",
+      color: "#ff4555",
     },
     "& label": {
       color: "tan",
@@ -43,15 +43,15 @@ const InputField = withStyles({
 const Contacts = () => {
   const classes = useStyles()
   return (
-    <Box component="div" style={{ background: "#233", height: "100vh" }}>
+    <Box component="div" style={{ background: "#1f272d", height: "100vh" }}>
       <Navbar />
       <Grid container justify="center">
         <Box component="form" className={classes.form}>
           <Typography
             variant="h5"
-            style={{ color: "tomato", textAlign: "center", textTransform: "uppercase" }}
+            style={{ color: "#ff4555", textAlign: "center", textTransform: "uppercase" }}
           >
-            Hire or contact me...
+            contact me
           </Typography>
           <InputField
             fullWidth={true}
