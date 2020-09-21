@@ -15,7 +15,7 @@ import {
   Box,
   ListItemIcon,
 } from "@material-ui/core"
-import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from "@material-ui/icons"
+import { Menu, AssignmentInd, Home, Apps, ContactMail } from "@material-ui/icons"
 import avatar from "../ninja.png"
 import Footer from "./Footer"
 
@@ -94,7 +94,7 @@ const Navbar = () => {
         <AppBar position="static" style={{ background: "#222" }}>
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
-              <ArrowBack style={{ color: "#962d36" }} />
+              <Menu style={{ color: "#962d36" }} />
             </IconButton>
             <Typography variant="h5" style={{ color: "#588dbb" }}>
               Portfolio
