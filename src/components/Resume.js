@@ -110,7 +110,7 @@ const Resume = () => {
       <Navbar />
       <Box component="header" className={classes.mainContainer}>
         <Typography variant="h4" align="center" className={classes.heading}>
-          Skills Acquiring
+          My Web Development road
         </Typography>
         <Box component="div" className={classes.timeLine}>
           <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
@@ -139,7 +139,7 @@ const Resume = () => {
               Self learning
             </Typography>
             <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
-              Learned Python and some of it's most famous libraries and frameworks included Flask
+              Python and some of it's most famous libraries and frameworks included Flask
             </Typography>
           </Box>
           <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
@@ -153,7 +153,21 @@ const Resume = () => {
               Self learning
             </Typography>
             <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
-              Learned ReactJs - ReactRouter - Redux
+              ReactJs - ReactRouter - Redux
+            </Typography>
+          </Box>
+          <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+            2020
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography variant="h5" align="center" className={classes.subHeading}>
+              Full Stack
+            </Typography>
+            <Typography variant="body1" align="center" style={{ color: "#ff4555" }}>
+              Self employed
+            </Typography>
+            <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
+              NodeJs with ExpressJs - React - Postgres
             </Typography>
           </Box>
         </Box>
