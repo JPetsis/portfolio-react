@@ -61,9 +61,8 @@ const Portfolio = () => {
                   E-commerce site in Rails
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  This was the project i build during my bootcamp. I used Ruby on Rails and various
-                  gems. Is no by any means 100% done yet and that is because every time there will
-                  be place for improvisation.
+                  This is a website I built using Ruby on Rails and various gems. It is work in
+                  progress and is regularly updated.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -84,9 +83,9 @@ const Portfolio = () => {
                   Twitter like blog in Python
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  This was a project using full stack Python and it covers most of the important
-                  things. It is not difficult to see why many people like Python. This project needs
-                  the visual elements to be redesigned.
+                  This was a webdev project using full stack Python and it covers most of the
+                  elements of full stack web development process. Currently working with designer on
+                  visual elements and UX.
                 </Typography>
               </CardContent>
             </CardActionArea>
